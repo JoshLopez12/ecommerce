@@ -1,0 +1,32 @@
+body {
+  background-color: #101010;
+}
+h1 {
+  color: #f90;
+  font-family: 'PT Serif', sans-serif;
+}
+a {
+  color: #f90;
+  font-family: 'PT Serif', sans-serif;
+}
+.list-group-item {
+  background-color: #ccc;
+  color: black;
+}
+.navbar-brand {
+  font-family: 'PT Serif', sans-serif;
+}
+.carousel-control-prev-icon {
+  background-color: black;
+}
+.carousel-control-next-icon {
+  background-color: black;
+}
+.carousel-indicators li {
+  background-color: #fff;
+  opacity: 1;
+}
+.carousel-indicators .active {
+  background-color: #f90;
+  opacity: 1;
+}
