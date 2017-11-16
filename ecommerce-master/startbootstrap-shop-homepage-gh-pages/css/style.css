@@ -1,11 +1,16 @@
 body {
   background-color: #101010;
+  margin-top: 1cm;
 }
 h1 {
   color: #f90;
   font-family: 'PT Serif', sans-serif;
 }
 h3 {
+  color: #f90;
+  font-family: 'PT Serif', sans-serif;
+}
+h4 {
   color: #f90;
   font-family: 'PT Serif', sans-serif;
 }
@@ -40,7 +45,7 @@ a {
   text-align: center;
   border-radius: 25px;
 }
-.list-group-item-current {
+.list-group-item.active {
   background-color: #343a40;
   color: black;
   position: relative;
@@ -48,4 +53,41 @@ a {
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
   border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.btn-success {
+    color: #f90;
+    background-color: #101010;
+    border-color: #111111;
+}
+.btn-success:hover {
+  color: #101010;
+  background-color: #f90;
+  border-color: #111111;
+}
+.btn-primary {
+  color: #f90;
+  background-color: #101010;
+  border-color: #111111;
+}
+
+.btn-primary:hover {
+  color: #101010;
+  background-color: #f90;
+  border-color: #111111;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #343a40;
+  border-radius: 0.3rem;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: black;
+}
+.card-img-top-b {
+  width: 254px;
+  height: 205px;
+  border-radius: 8px;
 }
