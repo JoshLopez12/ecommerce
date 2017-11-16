@@ -5,6 +5,10 @@ h1 {
   color: #f90;
   font-family: 'PT Serif', sans-serif;
 }
+h3 {
+  color: #f90;
+  font-family: 'PT Serif', sans-serif;
+}
 a {
   color: #f90;
   font-family: 'PT Serif', sans-serif;
@@ -35,4 +39,13 @@ a {
   height: 32px;
   text-align: center;
   border-radius: 25px;
+}
+.list-group-item-current {
+  background-color: #343a40;
+  color: black;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
