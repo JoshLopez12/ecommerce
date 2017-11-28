@@ -13,6 +13,7 @@ h3 {
 h4 {
   color: #f90;
   font-family: 'PT Serif', sans-serif;
+  text-decoration: overline underline;
 }
 a {
   color: #f90;
@@ -40,14 +41,21 @@ a {
   opacity: 1;
 }
 .card-title {
-  background-color: #101010;
   height: 32px;
   text-align: center;
-  border-radius: 25px;
+  border-radius: 5px;
 }
 .list-group-item.active {
   background-color: #343a40;
-  color: black;
+  color: #f90;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.list-group-item:hover {
+  color: #B26B00;
   position: relative;
   display: block;
   padding: 0.75rem 1.25rem;
@@ -90,4 +98,8 @@ a {
   width: 254px;
   height: 205px;
   border-radius: 8px;
+}
+a:hover {
+  color: #B26B00;
+  text-decoration: underline;
 }
