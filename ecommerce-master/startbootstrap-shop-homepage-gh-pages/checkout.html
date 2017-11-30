@@ -54,48 +54,56 @@
       </div>
     </nav>
 
-    <!-- Page Content -->
     <div class="container" style = "margin-bottom:200px;margin-top:40px;">
 
       <div class="card card-outline-secondary my-4" style = "background-color:#343a40;">
         <div class="lead" style = "text-align: left;margin-left:20px;margin-top:10px;">
-          Shopping Cart (1 item)
+          Checkout
         </div>
         <hr style="border-width: 5px;">
 
-        <ul>
-            <li style = "margin-left:370px;margin-top:10px;">
-                <h3 class="card-title" style = "text-decoration:underline;">Product</h3>
-            </li>
-            <li style = "margin-left:200px;margin-top:10px;">
-                <h3 class="card-title" style = "text-decoration:underline;">Price</h3>
-            </li>
-            <li style = "margin-left:180px;margin-top:10px;">
-                <h3 class="card-title" style = "text-decoration:underline;">Quantity</h3>
-            </li>
-        </ul>
-        <hr style="border-width: 5px;margin-bottom:25px;">
-
         <div class="card-body" style="padding:0;">
-            <ul>
-                <li>
-                  <a href="product.html"><img class="card-img-top" src="pix/p4.jpg" style="width:200px;height:200px;margin-left:20px;border:2px solid black" alt=""></a>
+            <ul style = "margin-bottom:50px;margin-top:25px;">
+                <li style = "margin-left:50px;">
+                    <input type="text" name="fname" placeholder="First name"><br>
                 </li>
-                <li style = "margin-left:120px;margin-top:80px;">
-                    <h3 class="card-title" style = "text-align:center;font-style: italic;">Red Ink</h3>
+                <li style = "margin-left:50px;">
+                    <input type="text" name="fname" placeholder="Last name"><br>
                 </li>
-                <li style = "margin-left:200px;margin-top:80px;">
-                    <h3 class="card-title" style = "text-align:center;font-style: italic;">$9.99</h3>
+                <li style = "margin-left:150px;">
+                    <input type="text" name="fname" placeholder="Credit Card #" style = "width:405px;"><br>
                 </li>
-                <li style = "margin-left:200px;margin-top:75px;">
-                  <select>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
+            </ul>
+            <ul style = "margin-bottom:50px;">
+              <li style = "margin-left:50px;">
+                  <input type="text" name="fname" placeholder="Address" style = "width:445px;"><br>
+              </li>
+              <li style = "margin-left:150px;">
+                  <select placeholder="Last name">
+                    <option value="default" hidden selected>Card Type</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">MasterCard</option>
+                    <option value="americanexpress">American Express</option>
+                    <option value="discover">Discover</option>
+                    <option value="chase">Chase</option>
                   </select>
-                </li>
+              </li>
+            </ul>
+            <ul style = "margin-bottom:50px;">
+              <li style = "margin-left:50px;">
+                  <input type="text" name="fname" placeholder="Phone #" style = "width:445px;"><br>
+              </li>
+            </ul>
+            <ul style = "margin-bottom:50px;">
+              <li style = "margin-left:50px;">
+                  <input type="text" name="fname" placeholder="City"><br>
+              </li>
+              <li style = "margin-left:50px;">
+                  <input type="text" name="fname" placeholder="Zip Code"><br>
+              </li>
+              <li style = "margin-left:150px;">
+                  <input type="text" name="fname" placeholder="Security Code" maxlength="3"><br>
+              </li>
             </ul>
 
 
@@ -103,16 +111,17 @@
           <hr style="border-width: 5px;margin-bottom:25px;">
           <ul>
             <li>
-              <h3 class="card-title" style = "text-align:center;margin-left:55px;margin-bottom:30px;">Total: $9.99</h3>
+              <h3 class="card-title" style = "text-align:center;margin-left:25px;margin-bottom:30px;">Order Total: 1 x $9.99</h3>
             </li>
-            <li style = "margin-left:750px;">
-              <a href="checkout.html" class="btn btn-success">Checkout</a>
+            <li style = "margin-left:700px;">
+              <a href="checkout.html" class="btn btn-success">Submit</a>
             </li>
           </ul>
         </div>
       </div>
 
     </div>
+
 
     <footer class="py-5 bg-dark">
       <div class="container">

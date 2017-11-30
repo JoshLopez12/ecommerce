@@ -159,3 +159,24 @@ li a {
     padding: 16px;
     text-decoration: none;
 }
+input {
+  background-color: #101010;
+  color: #f90;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+input::placeholder {
+  color: #f90;
+  opacity: 0.75;
+}
+select {
+  background-color: #101010;
+  color: #f90;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.option:hover {
+  background-color: #f90;
+}
